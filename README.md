@@ -67,6 +67,8 @@ This project is based on the CRISP-DM methodology which involves n interactions 
 
 6. Deployment: We put the model into production.
 
+# ML Performance
+
 # Results
 
 # References
