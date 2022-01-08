@@ -67,7 +67,12 @@ This project is based on the CRISP-DM methodology which involves n interactions 
 
 6. Deployment: We put the model into production.
 
-# ML Performance
+# Machine Learning Performance
+
+In this project, we use some machine learning models to compare performance and choose the one that best suits the data for production use.
+
+We use Boruta to select the best features for learning in the model (Section 6.3). Boruta returned the following features as the most important:
+Store, Promo, Store Type, Assortment, Competition Distance, Competition Open Since Month, Competition Distance, Competition Open Since Year, Promo2, Promo2 Since Week, Promo2 Since Year, Competition Time Month, Promo Time Week.
 
 # Results
 
