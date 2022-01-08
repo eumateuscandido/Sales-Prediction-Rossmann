@@ -74,6 +74,37 @@ In this project, we use some machine learning models to compare performance and 
 We use Boruta to select the best features for learning in the model (Section 6.3). Boruta returned the following features as the most important:
 Store, Promo, Store Type, Assortment, Competition Distance, Competition Open Since Month, Competition Distance, Competition Open Since Year, Promo2, Promo2 Since Week, Promo2 Since Year, Competition Time Month, Promo Time Week.
 
+Four machine learning models were used to analyze which one would fit the best, in this first interaction, with the business problem. The models used were: 
+
+1. Random Forest Regressor
+
+2. Linear Regression
+
+3. Lasso
+
+4. XGBoost Return
+
+The models had the following performances:
+
+| Model Name  | MAE | MAPE | RMSE |
+| ------------- | ------------- | ------------- | ------------- |
+| Random Forest Regressor  | 837.68 +/- 218.12  | 0.12 +/- 0.02	  | 1256.33 +/- 318.28  |
+| Linear Regression  | 2081.73 +/- 295.63  | 0.3 +/- 0.02  | 2952.52 +/- 468.37  |
+| Lasso  | 2116.38 +/- 341.5  | 0.29 +/- 0.01	  | 3057.75 +/- 504.26  |
+| XGBoost Regressor  | 7047.94 +/- 587.59  | 0.95 +/- 0.0  | 7714.01 +/- 688.65  |
+
+Mean Absolute Error (MAE): Mean absolute error over the real values and predicted by the machine learning model.
+
+Mean Absolute Percentage Error (MAPE): Similar to MAE, but in percentage. Shows the average percentage of the model's prediction error.
+
+Root Mean Squared Error (RMSE): Calculates the root mean square of errors between the actual and predicted values by the model.
+
+For this first interaction, the model used will be the Random Forest Regressor, which at first presented a better performance.
+
+| Model Name  | MAE | MAPE | RMSE |
+| ------------- | ------------- | ------------- | ------------- |
+| Random Forest Regressor  | 837.68 +/- 218.12  | 0.12 +/- 0.02	  | 1256.33 +/- 318.28  |
+
 # Results
 
 # References
