@@ -107,6 +107,20 @@ For this first interaction, the model used will be the Random Forest Regressor, 
 
 # Results
 
+With the metrics and parameters used in this first interaction of the cycle, we see that we have three scenarios:
+
+Predictions: It was predicted for the next six weeks a total sales of $ 268,804,261.
+
+Best Scenario: Based on the prediction, we have a best scenario (in total) with $ 270,778,213.92, an increase of 0.73% compared to the prediction.
+
+Worst Scenario: For the worst scenario we have a value of $ 266,830,308.07, a drop of 0.74% in relation to the prediction.
+
+| Scenario  | Values | 
+| ------------- | ------------- | 
+| Predictions | $ 268.804.261,00 | 
+| Best Scenario | $ 270.778.213,92 | 
+| Worst Scenario | $ 266.830.308,07| 
+
 # References
 
 1. Data Source: KAGGLE, Kaggle. Rossmann Store Sales: Forecast sales using store, promotion, and competitor data. [S. l.], 2016. Disponível em: https://www.kaggle.com/c/rossmann-store-sales. Acesso em: 12 nov. 2021.
